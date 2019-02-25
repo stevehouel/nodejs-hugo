@@ -1,4 +1,4 @@
-FROM node:8.15.0-jessie
+FROM node:8.15.0-stretch
 
 # Install pygments (for syntax highlighting)
 RUN apt-get -qq update \
